@@ -9,8 +9,8 @@
   },
   "author": "flazepe",
   "dependencies": {
-    "canvas": "^2.7.0",
-    "twemoji": "^13.0.1"
+    "@twemoji/api": "^14.1.0",
+    "canvas": "^2.7.0"
   },
   "license": "MIT",
   "repository": {

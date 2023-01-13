@@ -1,4 +1,4 @@
-const { parse } = require('twemoji-parser');
+const { parse } = require('@twemoji/api');
 
 /*
  * Split Text
