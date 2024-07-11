@@ -12,7 +12,7 @@
     "twemoji-parser": "^14.0.0"
   },
   "peerDependencies": {
-    "canvas": "*"
+    "@napi-rs/canvas": "*"
   },
   "license": "MIT",
   "repository": {

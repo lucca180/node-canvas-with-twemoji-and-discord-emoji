@@ -1,4 +1,4 @@
-import { CanvasRenderingContext2D } from "canvas";
+import { SKRSContext2D } from "@napi-rs/canvas";
 
 declare module "node-canvas-with-twemoji-and-discord-emoji" {
 	export interface DrawOptions {
@@ -8,7 +8,7 @@ declare module "node-canvas-with-twemoji-and-discord-emoji" {
 	}
 	
 	export function fillTextWithTwemoji(
-		context: CanvasRenderingContext2D,
+		context: SKRSContext2D,
 		text: string,
 		x: number,
 		y: number,
@@ -16,7 +16,7 @@ declare module "node-canvas-with-twemoji-and-discord-emoji" {
 	): Promise<void>;
 	
 	export function strokeTextWithTwemoji(
-		context: CanvasRenderingContext2D,
+		context: SKRSContext2D,
 		text: string,
 		x: number,
 		y: number,
@@ -24,7 +24,7 @@ declare module "node-canvas-with-twemoji-and-discord-emoji" {
 	): Promise<void>;
 	
 	export function measureText(
-		context: CanvasRenderingContext2D,
+		context: SKRSContext2D,
 		text: string,
 		options?: { emojiSideMarginPercent?: number; }
 	): { width: number; alphabeticBaseline: number; };

@@ -1,5 +1,5 @@
 const express = require('express');
-const { createCanvas } = require('canvas');
+const { createCanvas } = require('@napi-rs/canvas');
 const base64 = require('urlsafe-base64');
 
 const wt = require('../src/index');
